@@ -1,0 +1,31 @@
+{
+  "name": "@faktor10/react-card",
+  "version": "0.0.1",
+  "description": "A Card component for showing generic information",
+  "private": false,
+  "babel": {
+    "presets": ["@babel/preset-react"]
+  },
+  "keywords": ["typescript", "react", "starter"],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "typescript": "4.1.3",
+    "@babel/cli": "latest",
+    "@babel/preset-react": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "publish:npm": "rm -rf dist && mkdir dist && babel src/components -d dist --copy-files"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
