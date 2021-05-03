@@ -1,7 +1,11 @@
 import React from "react";
 
-function Card() {
-  return <div>My Card</div>;
+interface Props {
+  content: string;
+}
+
+function Card({ content }: Props) {
+  return <div>{content}</div>;
 }
 
 export { Card };
