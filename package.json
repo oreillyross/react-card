@@ -2,6 +2,10 @@
   "name": "@faktor10/react-card",
   "version": "0.0.1",
   "description": "A Card component for showing generic information",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oreillyross/react-card"
+  },
   "private": false,
   "babel": {
     "presets": ["@babel/preset-react"]
